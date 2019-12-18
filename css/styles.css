@@ -1,0 +1,71 @@
+body{
+    margin:0px;
+    background: url(../images/image_1.jpg) no-repeat center center fixed; 
+
+    background-size:cover;
+    color:white;
+    max-width: 100%;
+    height: 100%;
+}
+
+
+.hugeText{
+    font-size:10rem;
+    color:#B2B2B2;
+    font-family: Cinzel-Regular;
+    text-shadow: 2px 2px black;
+}
+
+.centered{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:15%;
+    margin-bottom:15%;
+    text-align:center;
+}
+
+.navbar{
+    margin:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    background-image: linear-gradient(to bottom ,rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+
+}
+
+@font-face {
+    font-family: "Cinzel-Regular";
+    src: url(../fonts/Cinzel-Regular.otf);
+}
+
+
+.navbar li{
+    margin-left:5rem;
+    margin-right:5rem;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color:white;
+    padding:10px 20px 10px 20px;
+    font-family: Cinzel-Regular;
+    font-size: 2rem;
+    text-shadow: 1px 1px black;
+
+}
+
+.navbar li a:hover{
+    border-width:4px;    
+   border-top-style:solid;
+   border-bottom-style:solid;
+   border-top-color: white;
+   -webkit-transition: all 0.2s ease;                  
+   -moz-transition: all 0.2s ease;                 
+   -o-transition: all 0.2s ease;   
+   -ms-transition: all 0.2s ease;          
+   transition: all 0.2s ease;
+}
+
